@@ -1,0 +1,178 @@
+/* =========================
+   BASE RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050505;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* =========================
+   CANVAS / AI BACKGROUND
+========================= */
+#ai-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* =========================
+   APP WRAPPER
+========================= */
+#app {
+  min-height: 100vh;
+  padding: 80px 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+/* =========================
+   PROFILE
+========================= */
+.profile {
+  text-align: center;
+  max-width: 700px;
+}
+
+.profile h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.profile h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #b5b5b5;
+}
+
+.profile p {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 6px;
+}
+
+/* =========================
+   LINKS GRID (3 PER ROW)
+========================= */
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* =========================
+   LINK CARDS
+========================= */
+.link-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 28px 22px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 rgba(0, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glow overlay effect */
+.link-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff);
+  opacity: 0.25;
+  filter: blur(40px);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  z-index: 0;
+}
+
+.link-card:hover::before {
+  transform: translateX(100%);
+}
+
+/* Icon */
+.link-card i {
+  font-size: 28px;
+  margin-bottom: 14px;
+  color: #00ffff;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+/* Label */
+.link-card span {
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  z-index: 1;
+}
+
+/* Hover animation */
+.link-card:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 0 35px rgba(0, 255, 255, 0.5), 0 0 60px rgba(0, 255, 255, 0.3);
+}
+
+/* =========================
+   THEME TOGGLE BUTTON
+========================= */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  border: none;
+  color: #00ffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  z-index: 1;
+}
+
+#theme-toggle:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .links-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile h1 {
+    font-size: 2rem;
+  }
+}
