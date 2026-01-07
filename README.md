@@ -131,16 +131,33 @@ Simply add/remove links or edit profile info to update the dashboard.
 
  **Live Demo:**  https://yasirawan4831.github.io/futuristic-links-dashboard/
 
+###  Project Articles & Write-ups
+
+Read more about this project on **Substack**, **Dev.to**, and **Medium**, where I explain the design, logic and development process in detail.
+
+- **Substack** – A detailed breakdown of the project architecture, UI decisions and implementation.  
+  🔗 https://open.substack.com/pub/yasirwaninfo/p/building-a-futuristic-links-dashboard?r=6rj28o&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+- **Dev.to** – Step-by-step walkthrough focusing on JavaScript logic, animations and overall development flow.  
+  🔗 https://dev.to/yasirawan4831/building-a-futuristic-links-dashboard-with-javascript-my-latest-project-3fo6
+
+- **Medium** – A complete project overview highlighting inspiration, tech stack and key features.  
+  🔗 https://medium.com/@YasirAwan4831/building-a-futuristic-links-dashboard-with-javascript-my-latest-project-292f6c9a1818
+
+---
+
+ *These articles provide deeper insight into the thought process, tools, and techniques used to build this futuristic links dashboard.*
+
+
+
 ------
 ### Support
 
 If you like this project, don’t forget to:
 
- Star the repository
-
- Fork it
-
- Share it
+ Star the repository <br>
+ Fork it<br>
+ Share it<br>
 
 
 
