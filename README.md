@@ -1,10 +1,20 @@
 # Futuristic Links Dashboard
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![GSAP](https://img.shields.io/badge/GSAP-Green?logo=greensock&logoColor=white)](https://greensock.com/)
+ <p align="center">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/YasirAwan4831/futuristic-links-dashboard?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/YasirAwan4831/futuristic-links-dashboard?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/YasirAwan4831/futuristic-links-dashboard?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/YasirAwan4831/futuristic-links-dashboard?style=for-the-badge" />
+</p>
+
 
 ---
 
@@ -38,16 +48,16 @@ This is a **fully JavaScript-powered futuristic links dashboard** designed to sh
 
 ---
 
-## 🎯 Features in Detail
+##  Features in Detail
 
 1. **AI Background Animation**  
    - Canvas-based particle system with connecting lines.  
    - Fully responsive and interactive.  
 
 2. **Interactive Link Cards**  
-   - Hover effects: lift, scale, and glow.  
+   - Hover effects: lift, scale and glow.  
    - Click animations with subtle scale feedback.  
-   - Customizable icon color, size, and text via `DATA.links`.
+   - Customizable icon color, size and text via `DATA.links`.
 
 3. **Profile Section**  
    - Name, title, and tagline displayed prominently.  
@@ -58,7 +68,7 @@ This is a **fully JavaScript-powered futuristic links dashboard** designed to sh
    - Smooth transition between themes.  
 
 5. **Responsive Layout**  
-   - Grid adapts to desktop, tablet, and mobile screens.  
+   - Grid adapts to desktop, tablet and mobile screens.  
 
 ---
 
@@ -71,7 +81,7 @@ git clone https://github.com/YasirAwan4831/your-repo-name.git
 ```
 2. Navigate to the project folder:
 ```
-cd your-repo-name
+cd futuristic-links-dashboard
 ```
 3. Open index.html in your preferred browser:
 
@@ -116,6 +126,21 @@ Simply add/remove links or edit profile info to update the dashboard.
 ----
 
 ## Highlight:
- Live Demo
-coming soon 
+![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)![Open Source](https://img.shields.io/badge/Open%20Source-Yes-blue)![Maintenance](https://img.shields.io/badge/Maintained-Yes-success)
+
+
+ **Live Demo:**  https://yasirawan4831.github.io/futuristic-links-dashboard/
+
+------
+### Support
+
+If you like this project, don’t forget to:
+
+ Star the repository
+
+ Fork it
+
+ Share it
+
+
 
