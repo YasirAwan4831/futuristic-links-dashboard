@@ -10,17 +10,28 @@ const DATA = {
     title: "Full-Stack Web Developer",
     tagline: "Building modern, animated & interactive web experiences"
   },
-  links: [
-    { name: "LinkedIn", url: "https://linkedin.com/in/yasirawan4831", icon: "fa-brands fa-linkedin-in", color: "#0A66C2" },
-    { name: "GitHub", url: "https://github.com/YasirAwan4831", icon: "fa-brands fa-github", color: "#ffffff" },
-    { name: "LeetCode", url: "https://leetcode.com/u/YasirAwan4831", icon: "fa-solid fa-code", color: "#FFA116" },
-    { name: "Stack Overflow", url: "https://stackoverflow.com/users/31822196/yasirawan4831", icon: "fa-brands fa-stack-overflow", color: "#F58025" },
-    { name: "Portfolio", url: "https://yasirawan4831.github.io", icon: "fa-solid fa-globe", color: "#00eaff" },
-    { name: "Kaggle", url: "https://kaggle.com/yasirawan4831", icon: "fa-brands fa-kaggle", color: "#20BEFF" },
-    { name: "Dev.to", url: "https://forem.com/yasirawan4831", icon: "fa-brands fa-dev", color: "#ffffff" },
-    { name: "Medium", url: "https://medium.com/@YasirAwan4831", icon: "fa-brands fa-medium", color: "#ffffff" },
-    { name: "X (Twitter)", url: "https://x.com/YasirAwan4831", icon: "fa-brands fa-x-twitter", color: "#ffffff" }
-  ]
+links: [
+  { name:"LinkedIn", url:"https://linkedin.com/in/yasirawan4831", icon:"fa-brands fa-linkedin-in", color:"#0A66C2" },
+  { name:"GitHub", url:"https://github.com/YasirAwan4831", icon:"fa-brands fa-github", color:"#ffffff" },
+  { name:"Portfolio", url:"https://yasirawan4831.github.io/ApexcifyTechnologys-FrontendInternship/task-2/", icon:"fa-solid fa-globe", color:"#00eaff" },
+  { name:"Kaggle", url:"https://kaggle.com/yasirawan4831", icon:"fa-brands fa-kaggle", color:"#20BEFF" },
+  { name:"LeetCode", url:"https://leetcode.com/u/YasirAwan4831", icon:"fa-solid fa-code", color:"#FFA116" },
+  { name:"Stack Overflow", url:"https://stackoverflow.com/users/31822196/yasirawan4831", icon:"fa-brands fa-stack-overflow", color:"#F58025" },
+  { name:"Dev.to", url:"https://forem.com/yasirawan4831", icon:"fa-brands fa-dev", color:"#ffffff" },
+  { name:"Medium", url:"https://medium.com/@YasirAwan4831", icon:"fa-brands fa-medium", color:"#ffffff" },
+  { name:"Hashnode", url:"https://hashnode.com/@YasirAwan4831", icon:"fa-brands fa-hashnode", color:"#2962FF" },
+  { name:"Substack", url:"https://substack.com/@yasirwaninfo", icon:"fa-solid fa-newspaper", color:"#FF6719" },
+  { name:"YouTube", url:"https://www.youtube.com/@YasirTech-t1d", icon:"fa-brands fa-youtube", color:"#FF0000" },
+  { name:"X (Twitter)", url:"https://x.com/YasirAwan4831", icon:"fa-brands fa-x-twitter", color:"#ffffff" },
+  { name:"Facebook", url:"https://facebook.com/profile.php?id=61575935942197", icon:"fa-brands fa-facebook", color:"#1877F2" },
+  { name:"Instagram", url:"https://instagram.com/yasirawan4831", icon:"fa-brands fa-instagram", color:"#E4405F" },
+  { name:"TikTok", url:"https://www.tiktok.com/@yasirawan4831?lang=en", icon:"fa-brands fa-tiktok", color:"#ef8207ff" },
+  { name:"ASANI", url:"https://asani.pk/profile/yasirawan4831", icon:"fa-solid fa-briefcase", color:"#00c896" },
+  { name:"Google Developer", url:"https://developers.google.com/profile/u/yasirawaninfo", icon:"fa-brands fa-google", color:"#4285F4" },
+  { name:"Discord", url:"https://discord.com/users/1298290889373913149", icon:"fa-brands fa-discord", color:"#5865F2" },
+  { name:"Email (Gmail)", url:"mailto:my3154831409@gmail.com", icon:"fa-solid fa-envelope", color:"#EA4335" },
+  { name:"Email (Outlook)", url:"mailto:my3154831409@hotmail.com", icon:"fa-brands fa-microsoft", color:"#0078D4" }
+]
 };
 
 /* =====================================================
@@ -190,3 +201,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initTheme();
   animateEntry();
 });
+
+
+// 
