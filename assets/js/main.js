@@ -21,6 +21,8 @@ links: [
   { name:"Medium", url:"https://medium.com/@YasirAwan4831", icon:"fa-brands fa-medium", color:"#ffffff" },
   { name:"Hashnode", url:"https://hashnode.com/@YasirAwan4831", icon:"fa-brands fa-hashnode", color:"#2962FF" },
   { name:"Substack", url:"https://substack.com/@yasirwaninfo", icon:"fa-solid fa-newspaper", color:"#FF6719" },
+  { name:"CoderLegion", url:"https://coderlegion.com/user/YasirAwan4831", icon:"fa-solid fa-copyright", color:"transparent; color: #8297ff" },
+
   { name:"YouTube", url:"https://www.youtube.com/@YasirTech-t1d", icon:"fa-brands fa-youtube", color:"#FF0000" },
   { name:"X (Twitter)", url:"https://x.com/YasirAwan4831", icon:"fa-brands fa-x-twitter", color:"#ffffff" },
   { name:"Facebook", url:"https://facebook.com/profile.php?id=61575935942197", icon:"fa-brands fa-facebook", color:"#1877F2" },
