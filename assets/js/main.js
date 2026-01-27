@@ -13,7 +13,7 @@ const DATA = {
 links: [
   { name:"LinkedIn", url:"https://linkedin.com/in/yasirawan4831", icon:"fa-brands fa-linkedin-in", color:"#0A66C2" },
   { name:"GitHub", url:"https://github.com/YasirAwan4831", icon:"fa-brands fa-github", color:"#ffffff" },
-  { name:"Portfolio", url:"https://yasirawan4831.github.io/ApexcifyTechnologys-FrontendInternship/task-2/", icon:"fa-solid fa-globe", color:"#00eaff" },
+  { name:"Portfolio", url:"https://yasirawaninfo.vercel.app/", icon:"fa-solid fa-globe", color:"#00eaff" },
   { name:"Kaggle", url:"https://kaggle.com/yasirawan4831", icon:"fa-brands fa-kaggle", color:"#20BEFF" },
   { name:"LeetCode", url:"https://leetcode.com/u/YasirAwan4831", icon:"fa-solid fa-code", color:"#FFA116" },
   { name:"Stack Overflow", url:"https://stackoverflow.com/users/31822196/yasirawan4831", icon:"fa-brands fa-stack-overflow", color:"#F58025" },
@@ -22,7 +22,7 @@ links: [
   { name:"Hashnode", url:"https://hashnode.com/@YasirAwan4831", icon:"fa-brands fa-hashnode", color:"#2962FF" },
   { name:"Substack", url:"https://substack.com/@yasirwaninfo", icon:"fa-solid fa-newspaper", color:"#FF6719" },
   { name:"CoderLegion", url:"https://coderlegion.com/user/YasirAwan4831", icon:"fa-solid fa-copyright", color:"transparent; color: #8297ff" },
-
+{ name: "ORCID", url: "https://orcid.org/0009-0002-8711-6868", icon: "fa-brands fa-orcid", color: "#A6CE39" },
   { name:"YouTube", url:"https://www.youtube.com/@YasirTech-t1d", icon:"fa-brands fa-youtube", color:"#FF0000" },
   { name:"X (Twitter)", url:"https://x.com/YasirAwan4831", icon:"fa-brands fa-x-twitter", color:"#ffffff" },
   { name:"Facebook", url:"https://facebook.com/profile.php?id=61575935942197", icon:"fa-brands fa-facebook", color:"#1877F2" },
