@@ -1,191 +1,662 @@
-/* =========================
+/* ============================================================
+   GOOGLE FONTS — Futuristic + Clean Pair
+   Orbitron  : headings / brand  (sci-fi, techy)
+   Rajdhani  : sub-headings      (sharp, modern)
+   Inter     : body / labels     (readable)
+============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ============================================================
+   CSS CUSTOM PROPERTIES  (single source of truth for theming)
+============================================================ */
+:root {
+  /* -- Brand Accent Palette -- */
+  --cyan:          #00f5ff;
+  --cyan-dim:      #00c8d7;
+  --cyan-glow:     rgba(0, 245, 255, 0.35);
+  --magenta:       #ff00c8;
+  --magenta-glow:  rgba(255, 0, 200, 0.25);
+  --green:         #0dff7a;
+  --green-glow:    rgba(13, 255, 122, 0.3);
+  --amber:         #ffb700;
+
+  /* -- Dark Theme (default) -- */
+  --bg:            #020408;
+  --bg-card:       rgba(255, 255, 255, 0.055);
+  --bg-card-hover: rgba(255, 255, 255, 0.10);
+  --border:        rgba(0, 245, 255, 0.18);
+  --border-hover:  rgba(0, 245, 255, 0.55);
+  --text-primary:  #eef2f7;
+  --text-secondary:#a8b8c8;
+  --text-muted:    #5a7080;
+  --btn-bg:        rgba(255, 255, 255, 0.06);
+
+  /* -- Typography -- */
+  --font-display:  'Orbitron', sans-serif;
+  --font-sub:      'Rajdhani', sans-serif;
+  --font-body:     'Inter', sans-serif;
+
+  /* -- Spacing -- */
+  --radius:        20px;
+  --radius-sm:     12px;
+  --gap:           28px;
+
+  /* -- Transitions -- */
+  --ease:          cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-bounce:   cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur:           0.35s;
+
+  /* -- Blur -- */
+  --glass:         blur(18px) saturate(180%);
+}
+
+/* ============================================================
+   LIGHT THEME OVERRIDES
+============================================================ */
+body.light {
+  --bg:            #f0f4f8;
+  --bg-card:       rgba(255, 255, 255, 0.75);
+  --bg-card-hover: rgba(255, 255, 255, 0.95);
+  --border:        rgba(0, 140, 180, 0.22);
+  --border-hover:  rgba(0, 140, 180, 0.6);
+  --text-primary:  #0d1b2a;
+  --text-secondary:#2a4560;
+  --text-muted:    #6a8090;
+  --btn-bg:        rgba(0, 0, 0, 0.07);
+  --cyan:          #007acc;
+  --cyan-glow:     rgba(0, 122, 204, 0.25);
+  --green:         #00a85a;
+  --green-glow:    rgba(0, 168, 90, 0.25);
+}
+
+/* ============================================================
    BASE RESET
-========================= */
-* {
-  margin: 0;
-  padding: 0;
+============================================================ */
+*, *::before, *::after {
+  margin:     0;
+  padding:    0;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  background: #000000;
-  font-family: 'Segoe UI', system-ui, sans-serif;
-  color: #fff;
-  overflow-x: hidden;
-  transition: background 0.4s ease, color 0.4s ease;
+  background:   var(--bg);
+  font-family:  var(--font-body);
+  color:        var(--text-primary);
+  overflow-x:   hidden;
+  line-height:  1.6;
+  transition:   background var(--dur) var(--ease),
+                color      var(--dur) var(--ease);
+  cursor:       default;
 }
 
-/* =========================
+/* ============================================================
+   CUSTOM SCROLLBAR
+============================================================ */
+::-webkit-scrollbar               { width: 6px; }
+::-webkit-scrollbar-track         { background: var(--bg); }
+::-webkit-scrollbar-thumb         { background: var(--cyan-dim); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover   { background: var(--cyan); }
+
+/* ============================================================
    CANVAS / AI BACKGROUND
-========================= */
+============================================================ */
 #ai-bg {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
+  position:       fixed;
+  inset:          0;
+  z-index:        -1;
   pointer-events: none;
+  opacity:        0.75;
+  transition:     opacity var(--dur) var(--ease);
 }
 
-/* =========================
+body.light #ai-bg {
+  opacity: 0.35;
+}
+
+/* ============================================================
    APP WRAPPER
-========================= */
+============================================================ */
 #app {
-  min-height: 100vh;
-  padding: 80px 6%;
-  display: flex;
+  min-height:     100vh;
+  padding:        100px 6% 80px;
+  display:        flex;
   flex-direction: column;
-  align-items: center;
-  gap: 60px;
+  align-items:    center;
+  gap:           60px;
 }
 
-/* =========================
-   PROFILE
-========================= */
+/* ============================================================
+   PROFILE SECTION
+============================================================ */
 .profile {
   text-align: center;
-  max-width: 700px;
+  max-width:  720px;
+  width:      100%;
 }
 
+/* Avatar ring */
+.profile-avatar {
+  width:         100px;
+  height:        100px;
+  border-radius: 50%;
+  margin:        0 auto 20px;
+  overflow:      hidden;
+  border:        3.5px solid var(--cyan);
+  box-shadow:    0 0 22px var(--cyan-glow),
+                 0 0 50px var(--cyan-glow);
+  display:       block;
+  transition:    box-shadow var(--dur) var(--ease);
+}
+
+.profile-avatar img {
+  width:      100%;
+  height:     100%;
+  object-fit: cover;
+}
+
+/* Name heading */
 .profile h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-  color: #f1f4f1;
-  text-shadow: 0 0 10px #00ff11, 0 0 20px #ff2200;
+  font-family:    var(--font-display);
+  font-size:      clamp(2rem, 5vw, 3.6rem);
+  font-weight:    900;
+  letter-spacing: 2px;
+  line-height:    1.1;
+  margin-bottom:  10px;
+  color:          var(--text-primary);
+  text-shadow:    0 0 18px var(--cyan-glow),
+   0 0 40px var(--magenta-glow);
 }
 
+/* Title / role */
 .profile h3 {
-  font-size: 2.2rem;
-  font-weight: 500;
-  color: #11f962;
-  text-shadow: 0 0 10px #c4bcba, 0 0 20px #ff2200;
+  font-family:    var(--font-sub);
+  font-size:      clamp(1.1rem, 2.5vw, 1.6rem);
+  font-weight:    600;
+  letter-spacing: 1.5px;
+  color:          var(--green);
+  text-shadow:    0 0 12px var(--green-glow);
+  text-transform: uppercase;
+  margin-bottom:  8px;
 }
 
+/* Tagline */
 .profile p {
-  font-size: 1.2rem;
-  color: #eedcdc;
-  margin-top: 6px;
+  font-family: var(--font-body);
+  font-size:   clamp(0.9rem, 1.8vw, 1.05rem);
+  font-weight: 300;
+  color:       var(--text-secondary);
+  letter-spacing: 0.3px;
 }
 
-/* =========================
-   LINKS GRID (3 PER ROW)
-========================= */
+/* Profile badge row (optional injected chips) */
+.profile-badges {
+  display:         flex;
+  gap:             10px;
+  justify-content: center;
+  flex-wrap:       wrap;
+  margin-top:      18px;
+}
+
+.badge {
+  font-family:    var(--font-sub);
+  font-size:      0.75rem;
+  font-weight:    600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding:        5px 14px;
+  border-radius:  99px;
+  border:         1px solid var(--border);
+  background:     var(--bg-card);
+  color:          var(--cyan);
+  backdrop-filter: var(--glass);
+}
+
+/* ============================================================
+   SECTION DIVIDER / LABEL
+============================================================ */
+.section-label {
+  font-family:    var(--font-display);
+  font-size:      1rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  text-align:     center;
+  width:          100%;
+  max-width:      1100px;
+  position:       relative;
+}
+
+.section-label::before,
+.section-label::after {
+  content:          '';
+  position:         absolute;
+  top:              50%;
+  width:            calc(50% - 80px);
+  height:           1px;
+  background:       linear-gradient(90deg, transparent, var(--border));
+}
+
+.section-label::before { left: 0; transform: translateY(-50%); }
+.section-label::after  { right: 0; transform: translateY(-50%) scaleX(-1); }
+
+/* ============================================================
+   LINKS GRID  —  3 columns → 2 → 1
+============================================================ */
 .links-grid {
-  display: grid;
+  display:               grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  width: 100%;
-  max-width: 1100px;
+  gap:                   var(--gap);
+  width:                 100%;
+  max-width:             1100px;
 }
 
-/* =========================
+/* ============================================================
    LINK CARDS
-========================= */
+============================================================ */
 .link-card {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(0, 255, 255, 0.2);
-  backdrop-filter: blur(14px);
-  border-radius: 20px;
-  padding: 30px 22px;
-  text-align: center;
+  /* Layout */
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  justify-content: center;
+  gap:             14px;
+  padding:         32px 20px 26px;
+  border-radius:   var(--radius);
+  text-decoration: none;
+  position:        relative;
+  overflow:        hidden;
+
+  /* Glass */
+  background:      var(--bg-card);
+  backdrop-filter: var(--glass);
+  -webkit-backdrop-filter: var(--glass);
+  border:          1px solid var(--border);
+
+  /* Shadow */
+  box-shadow:      0 4px 24px rgba(0, 0, 0, 0.3),
+                   inset 0 1px 0 rgba(255, 255, 255, 0.06);
+
+  /* Transition */
+  transition:      background  var(--dur) var(--ease),
+                   border-color var(--dur) var(--ease),
+                   box-shadow   var(--dur) var(--ease),
+                   transform    var(--dur) var(--ease-bounce);
+
   cursor: pointer;
-  transition: all 0.4s ease;
-  box-shadow: 0 0 0 rgba(0, 255, 255, 0);
-  position: relative;
-  overflow: hidden;
+  will-change: transform;
 }
 
-/* Glow overlay effect */
+/* ── Shimmer sweep overlay ── */
 .link-card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff);
-  opacity: 0.25;
-  filter: blur(40px);
-  transform: translateX(-100%);
-  transition: transform 0.6s ease;
-  z-index: 0;
+  content:    '';
+  position:   absolute;
+  inset:      0;
+  background: linear-gradient(
+    115deg,
+    transparent 30%,
+    rgba(0, 245, 255, 0.07) 50%,
+    transparent 70%
+  );
+  transform:       translateX(-100%);
+  transition:      transform 0.65s var(--ease);
+  z-index:         0;
+  border-radius:   inherit;
+  pointer-events:  none;
 }
 
 .link-card:hover::before {
   transform: translateX(100%);
 }
 
-/* =========================
-   ICON (UPDATED)
-========================= */
-.link-card i {
-  font-size: 40px;               /* BIGGER ICON */
-  margin-bottom: 16px;
-  color: #00ffff;
-  transition: all 0.4s ease;
-  z-index: 1;
+/* ── Bottom glow line ── */
+.link-card::after {
+  content:      '';
+  position:     absolute;
+  bottom:       0;
+  left:         20%;
+  width:        60%;
+  height:       2px;
+  border-radius: 99px;
+  background:   var(--cyan);
+  opacity:      0;
+  transform:    scaleX(0);
+  transition:   opacity var(--dur) var(--ease),
+                transform var(--dur) var(--ease);
 }
 
-/* =========================
-   TEXT / LABEL (UPDATED)
-========================= */
-.link-card span {
-  font-size: 1.2rem;             /* BIGGER TEXT */
-  font-weight: 600;
-  color: #ffffff;                /* WHITE TEXT */
-  letter-spacing: 0.4px;
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.25); /* SOFT GLOW */
-  display: block;
-  z-index: 1;
+.link-card:hover::after {
+  opacity:   1;
+  transform: scaleX(1);
 }
 
-/* Hover animation */
+/* Hover state */
 .link-card:hover {
-  transform: translateY(-12px) scale(1.05);
-  box-shadow: 0 0 35px rgba(0, 255, 255, 0.5),
-              0 0 60px rgba(0, 255, 255, 0.3);
+  background:   var(--bg-card-hover);
+  border-color: var(--border-hover);
+  box-shadow:   0 0 30px var(--cyan-glow),
+                0 0 60px rgba(0, 245, 255, 0.15),
+                0 8px 32px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
-/* =========================
+/* Focus ring (accessibility) */
+.link-card:focus-visible {
+  outline:        2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+/* ── ICON ── */
+.link-card i {
+  font-size:   2.6rem;
+  line-height: 1;
+  position:    relative;
+  z-index:     1;
+  transition:  transform var(--dur) var(--ease-bounce),
+               filter    var(--dur) var(--ease);
+  display:     block;
+}
+
+.link-card:hover i {
+  transform: scale(1.18) translateY(-2px);
+  filter:    drop-shadow(0 0 10px currentColor);
+}
+
+/* ── LABEL TEXT ── */
+.link-card span {
+  font-family:  var(--font-sub);
+  font-size:    1.4rem;
+  font-weight:  600;
+  letter-spacing: 0.5px;
+  color:        var(--text-primary);
+  text-align:   center;
+  line-height:  1.3;
+  position:     relative;
+  z-index:      1;
+  transition:   color var(--dur) var(--ease);
+}
+
+.link-card:hover span {
+  color: #17eb08;
+}
+
+/* ── CARD CATEGORY TAG (optional, injected by JS) ── */
+.card-tag {
+  font-family:    var(--font-body);
+  font-size:      0.62rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color:          var(--text-muted);
+  position:       relative;
+  z-index:        1;
+  margin-top:     -4px;
+}
+
+/* ============================================================
    THEME TOGGLE BUTTON
-========================= */
+============================================================ */
 #theme-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(16px);
-  border: none;
-  color: #42db0e;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: transform 0.3s ease, background 0.3s ease;
-  z-index: 1;
+  position:        fixed;
+  top:             20px;
+  right:           20px;
+  width:           48px;
+  height:          48px;
+  border-radius:   50%;
+  background:      var(--btn-bg);
+  backdrop-filter: var(--glass);
+  -webkit-backdrop-filter: var(--glass);
+  border:          1px solid var(--border);
+  color:           var(--cyan);
+  font-size:       1.1rem;
+  cursor:          pointer;
+  z-index:         999;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  transition:      background  var(--dur) var(--ease),
+                   border-color var(--dur) var(--ease),
+                   color       var(--dur) var(--ease),
+                   transform   var(--dur) var(--ease-bounce);
+  box-shadow:      0 0 12px var(--cyan-glow);
 }
 
 #theme-toggle:hover {
-  transform: rotate(20deg) scale(1.1);
+  background:   #00f5ff1f;
+  border-color: var(--cyan);
+  transform:    rotate(20deg) scale(1.12);
+  box-shadow:   0 0 22px var(--cyan-glow);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-@media (max-width: 900px) {
+#theme-toggle:focus-visible {
+  outline:        2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+/* ============================================================
+   SCROLL-TO-TOP BUTTON
+============================================================ */
+#scroll-top {
+  position:        fixed;
+  bottom:          28px;
+  right:           20px;
+  width:           48px;
+  height:          48px;
+  border-radius:   50%;
+  background:      var(--btn-bg);
+  backdrop-filter: var(--glass);
+  -webkit-backdrop-filter: var(--glass);
+  border:          1px solid var(--border);
+  color:           var(--cyan);
+  font-size:       1rem;
+  cursor:          pointer;
+  z-index:         999;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  opacity:         0;
+  pointer-events:  none;
+  transform:       translateY(16px);
+  transition:      opacity     var(--dur) var(--ease),
+                   transform   var(--dur) var(--ease-bounce),
+                   background  var(--dur) var(--ease),
+                   border-color var(--dur) var(--ease),
+                   box-shadow  var(--dur) var(--ease);
+  box-shadow:      0 0 12px var(--cyan-glow);
+}
+
+#scroll-top.visible {
+  opacity:        1;
+  pointer-events: auto;
+  transform:      translateY(0);
+}
+
+#scroll-top:hover {
+  background:   rgba(0, 245, 255, 0.12);
+  border-color: var(--cyan);
+  transform:    translateY(-4px) scale(1.1);
+  box-shadow:   0 0 22px var(--cyan-glow);
+}
+
+#scroll-top:focus-visible {
+  outline:        2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+/* ============================================================
+   FOOTER (injected by JS)
+============================================================ */
+.site-footer {
+  font-family: var(--font-body);
+  font-size:   0.78rem;
+  color:       var(--text-muted);
+  text-align:  center;
+  padding:     20px 0 10px;
+  letter-spacing: 0.7px;
+}
+
+.site-footer a {
+  color:           var(--cyan);
+  text-decoration: none;
+  transition:      opacity var(--dur) var(--ease);
+}
+
+.site-footer a:hover { opacity: 0.75; }
+
+/* ============================================================
+   UTILITY — VISUALLY HIDDEN (accessibility)
+============================================================ */
+.sr-only {
+  position:  absolute;
+  width:     1px;
+  height:    1px;
+  padding:   4;
+  margin:    -1px;
+  overflow:  hidden;
+  clip:      rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border:    0;
+}
+
+/* ============================================================
+   LOADING SKELETON (while JS renders)
+============================================================ */
+@keyframes skeleton-shine {
+  0%   { background-position: -400px 0; }
+  100% { background-position:  400px 0; }
+}
+
+.skeleton {
+  background:          linear-gradient(90deg, var(--bg-card) 25%, rgba(255,255,255,0.08) 50%, var(--bg-card) 75%);
+  background-size:     800px 100%;
+  animation:           skeleton-shine 1.6s infinite linear;
+  border-radius:       var(--radius-sm);
+}
+
+/* ============================================================
+   KEYFRAME ANIMATIONS
+============================================================ */
+
+/* Entry fade-up */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* Pulse glow on profile name */
+@keyframes glowPulse {
+  0%, 100% { text-shadow: 0 0 18px var(--cyan-glow), 0 0 40px var(--magenta-glow); }
+  50%       { text-shadow: 0 0 32px var(--cyan-glow), 0 0 70px var(--magenta-glow), 0 0 100px rgba(0, 245, 255, 0.15); }
+}
+
+.profile h1 { animation: glowPulse 3.5s ease-in-out infinite; }
+
+/* Scan line on avatar */
+@keyframes scanLine {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(400%);  }
+}
+
+.profile-avatar::after {
+  content:    '';
+  position:   absolute;
+  left:       0;
+  width:      100%;
+  height:     30%;
+  background: linear-gradient(transparent, rgba(0, 245, 255, 0.08), transparent);
+  animation:  scanLine 3s linear infinite;
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS
+============================================================ */
+
+/* Tablet */
+@media (max-width: 960px) {
   .links-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  #app {
+    padding: 90px 5% 70px;
+    gap: 44px;
   }
 }
 
-@media (max-width: 520px) {
+/* Mobile large */
+@media (max-width: 600px) {
+  .links-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .link-card {
+    padding: 22px 14px 18px;
+    gap: 10px;
+  }
+
+  .link-card i    { font-size: 2rem; }
+  .link-card span { font-size: 0.9rem; }
+
+  .profile h1 {
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+  }
+
+  .profile h3 { font-size: 1rem; }
+  .profile p  { font-size: 0.88rem; }
+
+  #theme-toggle,
+  #scroll-top {
+    width:  42px;
+    height: 42px;
+  }
+}
+
+/* Mobile small */
+@media (max-width: 380px) {
   .links-grid {
     grid-template-columns: 1fr;
   }
 
-  .profile h1 {
-    font-size: 2rem;
+  .link-card {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 18px;
+    padding: 18px 20px;
+  }
+
+  .link-card i { font-size: 1.8rem; }
+}
+
+/* ============================================================
+   PRINT STYLES
+============================================================ */
+@media print {
+  #ai-bg, #theme-toggle, #scroll-top { display: none !important; }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .link-card {
+    border: 1px solid #ccc;
+    break-inside: avoid;
   }
 }
 
-
-
-
+/* ============================================================
+   REDUCED MOTION  (accessibility)
+============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration:    0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration:   0.01ms !important;
+  }
+}
