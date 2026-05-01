@@ -57,6 +57,12 @@ function el(tag, cls, html) {
    CSS-IN-JS  — all styles injected from JS
 ===================================================== */
 function injectStyles() {
+  /* Set body bg immediately — prevents any white flash */
+  document.body.style.background = "#020408";
+  document.body.style.margin     = "0";
+  document.body.style.padding    = "0";
+  document.body.style.overflowX  = "hidden";
+
   const style = document.createElement("style");
   style.id = "app-styles";
   style.textContent = `
@@ -397,8 +403,22 @@ body.light #ai-bg { opacity:0.35; }
    AI PARTICLE BACKGROUND  — enhanced with colours
 ===================================================== */
 function initAIBackground() {
+  /* Inline styles — CSS پر dependent نہیں */
   const canvas = document.createElement("canvas");
   canvas.id = "ai-bg";
+  /* Inline critical styles so canvas shows regardless of CSS load timing */
+  Object.assign(canvas.style, {
+    position:      "fixed",
+    top:           "0",
+    left:          "0",
+    right:         "0",
+    bottom:        "0",
+    width:         "100vw",
+    height:        "100vh",
+    zIndex:        "-1",
+    pointerEvents: "none",
+    opacity:       "0.85"
+  });
   document.body.insertBefore(canvas, document.body.firstChild);
 
   const ctx = canvas.getContext("2d");
