@@ -38,7 +38,8 @@ const DATA = {
     { name:"Discord",         url:"https://discord.com/users/1298290889373913149",          icon:"fa-brands fa-discord",       color:"#5865F2",  category:"Social" },
     { name:"Portfolio 2",     url:"https://myasirawaninfo.vercel.app/",                     icon:"fa-solid fa-globe",          color:"#00eaff",  category:"Contact" },
     { name:"Gmail",           url:"mailto:my3154831409@gmail.com",                          icon:"fa-solid fa-envelope",       color:"#EA4335",  category:"Contact" },
-    { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" }
+    { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" },
+    { name:"Portfolio 3",       url:"https://yasirawaninfodev.vercel.app/",                      icon:"fa-solid fa-globe",          color:"#090a0a",  category:"Professional" },
   ]
 };
 
