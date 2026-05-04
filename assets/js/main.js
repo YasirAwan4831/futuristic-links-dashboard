@@ -39,7 +39,7 @@ const DATA = {
     { name:"Portfolio 2",     url:"https://myasirawaninfo.vercel.app/",                     icon:"fa-solid fa-globe",          color:"#00eaff",  category:"Contact" },
     { name:"Gmail",           url:"mailto:my3154831409@gmail.com",                          icon:"fa-solid fa-envelope",       color:"#EA4335",  category:"Contact" },
     { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" },
-    { name:"Portfolio 3",       url:"https://yasirawaninfodev.vercel.app/",                      icon:"fa-solid fa-globe",          color:"#090a0a",  category:"Professional" },
+    { name:"Portfolio-3",       url:"https://yasirawaninfodev.vercel.app/",                      icon:"fa-solid fa-globe",          color:"#07f213",  category:"Professional" },
   ]
 };
 
@@ -380,7 +380,7 @@ body.light #ai-bg { opacity:0.35; }
 @media print {
   #ai-bg,#theme-toggle,#scroll-top { display:none !important; }
   body { background:#fff; color:#000; }
-  .link-card { border:1px solid #ccc; break-inside:avoid; }
+  .link-card { border:1px solid #fa0707; break-inside:avoid; }
 }
 
 /* ── Reduced Motion ── */
@@ -404,7 +404,7 @@ body.light #ai-bg { opacity:0.35; }
    AI PARTICLE BACKGROUND  — enhanced with colours
 ===================================================== */
 function initAIBackground() {
-  /* Inline styles — CSS پر dependent نہیں */
+  // 
   const canvas = document.createElement("canvas");
   canvas.id = "ai-bg";
   /* Inline critical styles so canvas shows regardless of CSS load timing */
