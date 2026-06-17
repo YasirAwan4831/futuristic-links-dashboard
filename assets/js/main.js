@@ -10,7 +10,7 @@ const DATA = {
     name:    "Muhammad Yasir",
     title:   "Full-Stack Web Developer",
     tagline: "Building modern, animated & interactive web experiences",
-    avatar:  "icon/image (4).jpg",
+    avatar:  "icon/image (4).png",
     badges:  ["Full-Stack Developer", "Graphic Designer", "WordPress Expert", "Tech Blogger"]
   },
 
@@ -39,7 +39,8 @@ const DATA = {
     { name:"Portfolio 2",     url:"https://myasirawaninfo.vercel.app/",                     icon:"fa-solid fa-globe",          color:"#00eaff",  category:"Contact" },
     { name:"Gmail",           url:"mailto:my3154831409@gmail.com",                          icon:"fa-solid fa-envelope",       color:"#EA4335",  category:"Contact" },
     { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" },
-    { name:"Portfolio-3",       url:"https://yasirawaninfodev.vercel.app/",                      icon:"fa-solid fa-globe",          color:"#07f213",  category:"Professional" },
+    { name:"Portfolio-3",     url:"https://yasirawaninfodev.vercel.app/",                   icon:"fa-solid fa-globe",          color:"#07f213",  category:"Professional" },
+    { name:"AI-Internship Portfolio",     url:"https://yasirawaninfo-ai.vercel.app/",       icon:"fa-solid fa-globe",          color:"#f20707",  category:"Professional" },
   ]
 };
 
