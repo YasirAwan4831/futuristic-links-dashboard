@@ -1,0 +1,68 @@
+# =====================================================
+#  robots.txt — Muhammad Yasir | Link Dashboard
+#  https://yasirawan4831.github.io/futuristic-links-dashboard/
+# =====================================================
+
+# ── Allow all crawlers ──
+User-agent: *
+Allow: /
+
+# ── Block AI training bots ──
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# ── Block useless/spam bots ──
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# ── Google specific ──
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Googlebot-Image
+Allow: /icon/
+
+# ── Bing ──
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+# ── Sitemap ──
+Sitemap: https://yasirawan4831.github.io/futuristic-links-dashboard/sitemap.xml

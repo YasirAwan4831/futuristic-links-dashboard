@@ -11,7 +11,7 @@ const DATA = {
     title:   "Full-Stack Web Developer",
     tagline: "Building modern, animated & interactive web experiences",
     avatar:  "icon/image (4).png",
-    badges:  ["Full-Stack Developer", "Graphic Designer", "WordPress Expert", "Tech Blogger"]
+    badges:  ["Full-Stack Developer", "AI Automation", "SOcial Media Pro", "Tech Blogger"]
   },
 
   links: [

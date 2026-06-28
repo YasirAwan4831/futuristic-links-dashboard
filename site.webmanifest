@@ -1,0 +1,169 @@
+site.webmanifest
+{
+  "name": "Muhammad Yasir | Link Dashboard",
+  "short_name": "Yasir Links",
+  "description": "Central hub for all links by Muhammad Yasir — social media, professional profiles, portfolios, and more in one place.",
+  "start_url": "/futuristic-links-dashboard/",
+  "scope": "/futuristic-links-dashboard/",
+  "id": "/futuristic-links-dashboard/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#00f5ff",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["portfolio", "social", "productivity", "developer"],
+
+  "icons": [
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "48x48",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "72x72",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "144x144",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "152x152",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "180x180",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "256x256",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "384x384",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/icon.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/image (4).png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "GitHub Profile",
+      "short_name": "GitHub",
+      "description": "View Muhammad Yasir's open-source projects and code on GitHub",
+      "url": "/futuristic-links-dashboard/?ref=shortcut-github",
+      "icons": [{ "src": "icon/icon.jpeg", "sizes": "96x96", "type": "image/jpeg" }]
+    },
+    {
+      "name": "LinkedIn Profile",
+      "short_name": "LinkedIn",
+      "description": "Connect with Muhammad Yasir professionally on LinkedIn",
+      "url": "/futuristic-links-dashboard/?ref=shortcut-linkedin",
+      "icons": [{ "src": "icon/icon.jpeg", "sizes": "96x96", "type": "image/jpeg" }]
+    },
+    {
+      "name": "Main Portfolio",
+      "short_name": "Portfolio",
+      "description": "Explore Muhammad Yasir's full-stack web development portfolio",
+      "url": "/futuristic-links-dashboard/?ref=shortcut-portfolio",
+      "icons": [{ "src": "icon/icon.jpeg", "sizes": "96x96", "type": "image/jpeg" }]
+    },
+    {
+      "name": "AI Internship Portfolio",
+      "short_name": "AI Portfolio",
+      "description": "View Muhammad Yasir's AI & automation internship projects",
+      "url": "/futuristic-links-dashboard/?ref=shortcut-ai",
+      "icons": [{ "src": "icon/icon.jpeg", "sizes": "96x96", "type": "image/jpeg" }]
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "icon/image (4).png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Muhammad Yasir Link Dashboard — Desktop View"
+    },
+    {
+      "src": "icon/image (4).png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Muhammad Yasir Link Dashboard — Mobile View"
+    }
+  ],
+
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/"
+    }
+  ],
+  "prefer_related_applications": false,
+
+  "protocol_handlers": [
+    {
+      "protocol": "web+yasirlinks",
+      "url": "/futuristic-links-dashboard/?protocol=%s"
+    }
+  ],
+
+  "share_target": {
+    "action": "/futuristic-links-dashboard/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
