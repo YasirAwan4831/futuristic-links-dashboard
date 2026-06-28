@@ -1,0 +1,232 @@
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person",
+    "name": "Muhammad Yasir",
+    "givenName": "Muhammad",
+    "familyName": "Yasir",
+    "alternateName": ["Yasir Awan", "YasirAwan4831", "yasirawan4831"],
+    "description": "Full-Stack Web Developer, AI Automation Expert, Graphic Designer, WordPress Expert and Tech Blogger based in Pakistan. Building modern, animated and interactive web experiences.",
+    "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/icon/icon.jpeg",
+      "width": 512,
+      "height": 512,
+      "caption": "Muhammad Yasir — Full-Stack Web Developer"
+    },
+    "jobTitle": "Full-Stack Web Developer",
+    "hasOccupation": [
+      {
+        "@type": "Occupation",
+        "name": "Full-Stack Web Developer",
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Pakistan"
+        },
+        "skills": "HTML, CSS, JavaScript, React, Node.js, Python, WordPress, AI Automation"
+      },
+      {
+        "@type": "Occupation",
+        "name": "Graphic Designer",
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Pakistan"
+        }
+      },
+      {
+        "@type": "Occupation",
+        "name": "Tech Blogger",
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Pakistan"
+        }
+      }
+    ],
+    "knowsAbout": [
+      "Full-Stack Web Development",
+      "AI Automation",
+      "WordPress Development",
+      "Graphic Design",
+      "JavaScript",
+      "React",
+      "Python",
+      "Machine Learning",
+      "Tech Blogging",
+      "Social Media Marketing"
+    ],
+    "nationality": {
+      "@type": "Country",
+      "name": "Pakistan"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PK",
+      "addressRegion": "Punjab"
+    },
+    "email": "my3154831409@gmail.com",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "name": "GitHub Username",
+        "value": "YasirAwan4831"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ORCID",
+        "value": "0009-0002-8711-6868"
+      }
+    ],
+    "sameAs": [
+      "https://github.com/YasirAwan4831",
+      "https://linkedin.com/in/yasirawan4831",
+      "https://x.com/YasirAwan4831",
+      "https://instagram.com/yasirawan4831",
+      "https://www.youtube.com/@YasirTech-t1d",
+      "https://facebook.com/profile.php?id=61575935942197",
+      "https://www.tiktok.com/@yasirawan4831",
+      "https://medium.com/@YasirAwan4831",
+      "https://dev.to/yasirawan4831",
+      "https://hashnode.com/@YasirAwan4831",
+      "https://substack.com/@yasirwaninfo",
+      "https://kaggle.com/yasirawan4831",
+      "https://leetcode.com/u/YasirAwan4831",
+      "https://stackoverflow.com/users/31822196/yasirawan4831",
+      "https://www.hackerrank.com/profile/YasirAwan4831",
+      "https://developers.google.com/profile/u/yasirawaninfo",
+      "https://orcid.org/0009-0002-8711-6868",
+      "https://yasirawaninfo.vercel.app/",
+      "https://myasirawaninfo.vercel.app/",
+      "https://yasirawaninfodev.vercel.app/",
+      "https://yasirawaninfo-ai.vercel.app/",
+      "https://asani.pk/profile/muhammad-yasir--2",
+      "https://discord.com/users/1298290889373913149",
+      "https://coderlegion.com/user/YasirAwan4831"
+    ]
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#website",
+    "name": "Muhammad Yasir | Link Dashboard",
+    "alternateName": "Yasir Links",
+    "description": "Central hub for all links by Muhammad Yasir. Access social media, professional profiles, portfolios, and more in one place.",
+    "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/",
+    "inLanguage": "en-US",
+    "author": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person"
+    },
+    "creator": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person"
+    },
+    "publisher": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person"
+    },
+    "dateCreated": "2026-01-06",
+    "dateModified": "2026-06-28",
+    "copyrightYear": "2026",
+    "copyrightHolder": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person"
+    },
+    "keywords": "Muhammad Yasir, link dashboard, social links, bio link, developer links, GitHub, LinkedIn, portfolio",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://yasirawan4831.github.io/futuristic-links-dashboard/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#webpage",
+    "name": "Muhammad Yasir | Link Dashboard – All Important Links",
+    "description": "Central hub for all links by Muhammad Yasir. Access social media, professional profiles, portfolios, and more in one place.",
+    "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/",
+    "inLanguage": "en-US",
+    "isPartOf": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#website"
+    },
+    "about": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person"
+    },
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/icon/icon.jpeg",
+      "width": 512,
+      "height": 512
+    },
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-06-28",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://yasirawan4831.github.io/futuristic-links-dashboard/"
+        }
+      ]
+    }
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#profilepage",
+    "name": "Muhammad Yasir — Link Dashboard Profile",
+    "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/",
+    "mainEntity": {
+      "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#person"
+    },
+    "dateCreated": "2026-01-06",
+    "dateModified": "2026-06-28"
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": "https://yasirawan4831.github.io/futuristic-links-dashboard/#linklist",
+    "name": "Muhammad Yasir — All Social & Professional Links",
+    "description": "Complete list of all social media, developer, writing, and professional profile links for Muhammad Yasir.",
+    "url": "https://yasirawan4831.github.io/futuristic-links-dashboard/",
+    "numberOfItems": 26,
+    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1,  "name": "LinkedIn",               "url": "https://linkedin.com/in/yasirawan4831" },
+      { "@type": "ListItem", "position": 2,  "name": "GitHub",                 "url": "https://github.com/YasirAwan4831" },
+      { "@type": "ListItem", "position": 3,  "name": "Portfolio",              "url": "https://yasirawaninfo.vercel.app/" },
+      { "@type": "ListItem", "position": 4,  "name": "Kaggle",                 "url": "https://kaggle.com/yasirawan4831" },
+      { "@type": "ListItem", "position": 5,  "name": "LeetCode",               "url": "https://leetcode.com/u/YasirAwan4831" },
+      { "@type": "ListItem", "position": 6,  "name": "Stack Overflow",         "url": "https://stackoverflow.com/users/31822196/yasirawan4831" },
+      { "@type": "ListItem", "position": 7,  "name": "HackerRank",             "url": "https://www.hackerrank.com/profile/YasirAwan4831" },
+      { "@type": "ListItem", "position": 8,  "name": "CoderLegion",            "url": "https://coderlegion.com/user/YasirAwan4831" },
+      { "@type": "ListItem", "position": 9,  "name": "Google Developer",       "url": "https://developers.google.com/profile/u/yasirawaninfo" },
+      { "@type": "ListItem", "position": 10, "name": "Dev.to",                 "url": "https://dev.to/yasirawan4831" },
+      { "@type": "ListItem", "position": 11, "name": "Medium",                 "url": "https://medium.com/@YasirAwan4831" },
+      { "@type": "ListItem", "position": 12, "name": "Hashnode",               "url": "https://hashnode.com/@YasirAwan4831" },
+      { "@type": "ListItem", "position": 13, "name": "Substack",               "url": "https://substack.com/@yasirwaninfo" },
+      { "@type": "ListItem", "position": 14, "name": "ORCID",                  "url": "https://orcid.org/0009-0002-8711-6868" },
+      { "@type": "ListItem", "position": 15, "name": "YouTube",                "url": "https://www.youtube.com/@YasirTech-t1d" },
+      { "@type": "ListItem", "position": 16, "name": "X (Twitter)",            "url": "https://x.com/YasirAwan4831" },
+      { "@type": "ListItem", "position": 17, "name": "Instagram",              "url": "https://instagram.com/yasirawan4831" },
+      { "@type": "ListItem", "position": 18, "name": "ASANI",                  "url": "https://asani.pk/profile/muhammad-yasir--2" },
+      { "@type": "ListItem", "position": 19, "name": "Facebook",               "url": "https://facebook.com/profile.php?id=61575935942197" },
+      { "@type": "ListItem", "position": 20, "name": "TikTok",                 "url": "https://www.tiktok.com/@yasirawan4831" },
+      { "@type": "ListItem", "position": 21, "name": "Discord",                "url": "https://discord.com/users/1298290889373913149" },
+      { "@type": "ListItem", "position": 22, "name": "Portfolio 2",            "url": "https://myasirawaninfo.vercel.app/" },
+      { "@type": "ListItem", "position": 23, "name": "Gmail",                  "url": "mailto:my3154831409@gmail.com" },
+      { "@type": "ListItem", "position": 24, "name": "Outlook",                "url": "mailto:my3154831409@hotmail.com" },
+      { "@type": "ListItem", "position": 25, "name": "Portfolio 3",            "url": "https://yasirawaninfodev.vercel.app/" },
+      { "@type": "ListItem", "position": 26, "name": "AI-Internship Portfolio","url": "https://yasirawaninfo-ai.vercel.app/" }
+    ]
+  }
+]
+</script>
