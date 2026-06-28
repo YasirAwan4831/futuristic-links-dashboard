@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<!--
+  =====================================================
+  sitemap.xml — Muhammad Yasir | Link Dashboard
+  Website : https://yasirawan4831.github.io/futuristic-links-dashboard/
+  Author  : Muhammad Yasir
+  Updated : 2026-06-28
+  =====================================================
+-->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ══════════════════════════════════════════
+       MAIN PAGE — Homepage / Link Dashboard
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://yasirawan4831.github.io/futuristic-links-dashboard/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yasirawan4831.github.io/futuristic-links-dashboard/icon/icon.jpeg</image:loc>
+      <image:title>Muhammad Yasir — Profile Photo</image:title>
+      <image:caption>Muhammad Yasir | Full-Stack Web Developer & AI Automation Expert</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yasirawan4831.github.io/futuristic-links-dashboard/icon/image%20(4).png</image:loc>
+      <image:title>Muhammad Yasir — Avatar</image:title>
+      <image:caption>Muhammad Yasir profile avatar used on the link dashboard</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       PROFESSIONAL LINKS
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://linkedin.com/in/yasirawan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://yasirawaninfo.vercel.app/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://myasirawaninfo.vercel.app/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://yasirawaninfodev.vercel.app/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://yasirawaninfo-ai.vercel.app/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://orcid.org/0009-0002-8711-6868</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       DEVELOPER PROFILES
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://kaggle.com/yasirawan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://leetcode.com/u/YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://stackoverflow.com/users/31822196/yasirawan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hackerrank.com/profile/YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://coderlegion.com/user/YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://developers.google.com/profile/u/yasirawaninfo</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       WRITING & BLOGGING
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://dev.to/yasirawan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://medium.com/@YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://hashnode.com/@YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://substack.com/@yasirwaninfo</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       SOCIAL MEDIA
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.youtube.com/@YasirTech-t1d</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://x.com/YasirAwan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://instagram.com/yasirawan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://facebook.com/profile.php?id=61575935942197</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tiktok.com/@yasirawan4831</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://discord.com/users/1298290889373913149</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       FREELANCE / CONTACT
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://asani.pk/profile/muhammad-yasir--2</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
