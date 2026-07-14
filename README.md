@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- ══════════════════════════════════════════════════════
-     HEADER WAVE — capsule-render (GitHub compatible ✅)
+     HEADER WAVE
 ══════════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:7b00ff,100:ff00c8&height=220&section=header&text=Futuristic%20Links%20Dashboard&fontSize=42&fontColor=ffffff&fontAlignY=40&desc=Muhammad%20Yasir%20%7C%20Full-Stack%20Web%20Developer&descAlignY=62&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,30:7b00ff,70:ff00c8,100:00f5ff&height=240&section=header&text=Futuristic%20Links%20Dashboard&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=Muhammad%20Yasir%20%7C%20Full-Stack%20Web%20Developer%20%7C%20Pakistan%20🇵🇰&descAlignY=62&descSize=17&animation=fadeIn&stroke=00f5ff&strokeWidth=1" width="100%"/>
 
 <!-- ══════════════════════════════════════════════════════
-     TYPING ANIMATION — demolab (GitHub compatible ✅)
+     TYPING ANIMATION
 ══════════════════════════════════════════════════════ -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&width=750&height=80&lines=⚡+AI-Powered+Particle+Background;🎨+Dark+%2F+Light+Theme+Toggle;🔗+26%2B+Social+%26+Professional+Links;🚀+Built+with+Vanilla+JavaScript+%26+GSAP;📋+Copy+Link+Button+%2B+Stats+Counter+%2B+Loader" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&width=780&height=90&lines=⚡+AI-Powered+Particle+Background+with+Mouse+Repulsion;🎨+Dark+%2F+Light+Theme+Toggle+with+Keyboard+Shortcut;🔗+26%2B+Social+%26+Professional+Links+in+One+Place;🚀+Built+with+Vanilla+JavaScript+%26+GSAP+3.12;📋+Copy+Link+Button+%2B+Stats+Counter+%2B+Loading+Screen;🔍+Full+SEO+—+Schema.org+%2B+OG+%2B+Twitter+Card" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
@@ -43,6 +43,8 @@
      VISITOR COUNTER
 ══════════════════════════════════════════════════════ -->
 <img src="https://komarev.com/ghpvc/?username=YasirAwan4831&label=Profile+Views&color=00f5ff&style=for-the-badge" alt="Profile Views"/>
+&nbsp;
+<img src="https://img.shields.io/github/last-commit/YasirAwan4831/futuristic-links-dashboard?style=for-the-badge&color=ff00c8&labelColor=0d0d0d&logo=github&label=Last+Updated" alt="Last Commit"/>
 
 <br/><br/>
 
@@ -75,6 +77,8 @@
 <img src="https://img.shields.io/badge/No%20Backend-Required-ffb700?style=flat-square"/>
 &nbsp;
 <img src="https://img.shields.io/badge/SEO-Optimized-0dff7a?style=flat-square"/>
+&nbsp;
+<img src="https://img.shields.io/badge/PWA-Ready-00f5ff?style=flat-square&logo=pwa&logoColor=white"/>
 
 </div>
 
@@ -121,7 +125,7 @@
 The entire UI is **dynamically generated** from a single `DATA` object in `main.js` — no frameworks, no build tools, no backend required. Just open `index.html` and it runs.
 
 ```
-📌 No React · No Vue · No Angular · No Build Step · Just Vanilla JS + GSAP
+📌 No React  ·  No Vue  ·  No Angular  ·  No Build Step  ·  Just Vanilla JS + GSAP
 ```
 
 ---
@@ -131,7 +135,7 @@ The entire UI is **dynamically generated** from a single `DATA` object in `main.
 <div align="center">
 
 <a href="https://yasirawan4831.github.io/futuristic-links-dashboard/">
-  <img src="https://img.shields.io/badge/▶%20Open%20Live%20Demo-yasirawan4831.github.io-00f5ff?style=for-the-badge&labelColor=0a0a0a&logo=googlechrome&logoColor=00f5ff" alt="Live Demo" height="40"/>
+  <img src="https://img.shields.io/badge/▶%20Open%20Live%20Demo-yasirawan4831.github.io-00f5ff?style=for-the-badge&labelColor=0a0a0a&logo=googlechrome&logoColor=00f5ff" alt="Live Demo" height="42"/>
 </a>
 
 <br/><br/>
@@ -224,6 +228,8 @@ The entire UI is **dynamically generated** from a single `DATA` object in `main.
 
 <div align="center">
 <img src="https://img.shields.io/badge/Version-2.0-00f5ff?style=for-the-badge&labelColor=0d0d0d"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Stable-0dff7a?style=for-the-badge&labelColor=0d0d0d"/>
 </div>
 
 <br/>
@@ -264,10 +270,7 @@ The entire UI is **dynamically generated** from a single `DATA` object in `main.
 <br/>
 
 <div align="center">
-
-<!-- Skill Icons — skillicons.dev (GitHub compatible ✅) -->
 <img src="https://skillicons.dev/icons?i=html,css,js,github,vscode&theme=dark" alt="Skills"/>
-
 </div>
 
 ---
@@ -476,14 +479,12 @@ https://yasirawan4831.github.io/futuristic-links-dashboard/
 
 <div align="center">
 
-<!-- GitHub Stats Card — vercel hosted (GitHub compatible ✅) -->
 <img src="https://github-readme-stats.vercel.app/api?username=YasirAwan4831&show_icons=true&theme=radical&bg_color=0d0d0d&border_color=00f5ff&title_color=00f5ff&icon_color=ff00c8&text_color=eef2f7&hide_border=false&count_private=true" alt="GitHub Stats" height="165"/>
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YasirAwan4831&layout=compact&theme=radical&bg_color=0d0d0d&border_color=00f5ff&title_color=00f5ff&text_color=eef2f7&hide_border=false&langs_count=6" alt="Top Languages" height="165"/>
 
 <br/><br/>
 
-<!-- Streak Stats — streak-stats (GitHub compatible ✅) -->
 <img src="https://streak-stats.demolab.com?user=YasirAwan4831&theme=radical&background=0d0d0d&border=00f5ff&stroke=7b00ff&ring=ff00c8&fire=ffb700&currStreakLabel=00f5ff&sideLabels=00f5ff&currStreakNum=ffffff&sideNums=ffffff&dates=a8b8c8" alt="Streak Stats"/>
 
 </div>
@@ -571,9 +572,9 @@ git push origin feature/AmazingFeature
 ---
 
 <!-- ══════════════════════════════════════════════════════
-     FOOTER WAVE — capsule-render (GitHub compatible ✅)
+     FOOTER WAVE
 ══════════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00c8,50:7b00ff,100:00f5ff&height=130&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00c8,30:7b00ff,70:00f5ff,100:0dff7a&height=140&section=footer&fontSize=16&fontColor=ffffff&text=Thank%20you%20for%20visiting!%20⭐%20Star%20if%20you%20liked%20it&fontAlignY=65&animation=fadeIn" width="100%"/>
 
 <div align="center">
   <sub>
