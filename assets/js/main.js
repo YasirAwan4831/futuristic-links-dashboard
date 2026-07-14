@@ -11,7 +11,7 @@ const DATA = {
     title:   "Full-Stack Web Developer",
     tagline: "Building modern, animated & interactive web experiences",
     avatar:  "icon/image (4).png",
-    badges:  ["Full-Stack Developer", "AI Automation", "SOcial Media Pro", "Tech Blogger"]
+    badges:  ["Full-Stack Developer", "AI Automation", "SOcial Media Pro", "Data Analyst", "Tech Blogger"]
   },
 
   links: [
@@ -41,6 +41,7 @@ const DATA = {
     { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" },
     { name:"Portfolio-3",     url:"https://yasirawaninfodev.vercel.app/",                   icon:"fa-solid fa-globe",          color:"#07f213",  category:"Professional" },
     { name:"AI-Internship Portfolio",     url:"https://yasirawaninfo-ai.vercel.app/",       icon:"fa-solid fa-globe",          color:"#f20707",  category:"Professional" },
+    { name:"Behance",     url:"https://www.behance.net/muhammadyasir206",              icon:"fa-solid fa-palette",          color:"rgba(111, 203, 99, 0.57)",  category:"Graphic" },
   ]
 };
 
