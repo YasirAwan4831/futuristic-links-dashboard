@@ -8,11 +8,17 @@
 <!-- ══════════════════════════════════════════════════════
      TYPING ANIMATION
 ══════════════════════════════════════════════════════ -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&width=780&height=90&lines=⚡+AI-Powered+Particle+Background+with+Mouse+Repulsion;🎨+Dark+%2F+Light+Theme+Toggle+with+Keyboard+Shortcut;🔗+26%2B+Social+%26+Professional+Links+in+One+Place;🚀+Built+with+Vanilla+JavaScript+%26+GSAP+3.12;📋+Copy+Link+Button+%2B+Stats+Counter+%2B+Loading+Screen;🔍+Full+SEO+—+Schema.org+%2B+OG+%2B+Twitter+Card" alt="Typing SVG"/>
-</a>
 
-<br/><br/>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&duration=3200&pause=1200&color=00F5FF&center=true&vCenter=true&repeat=true&width=900&lines=AI-Powered+Particle+Background;Dark+%2F+Light+Theme+Toggle;26%2B+Social+%26+Professional+Links;Built+with+Vanilla+JavaScript+%26+GSAP+3.12;Copy+Link+%2B+Stats+Counter+%2B+Loading+Screen;SEO+Optimized+%7C+Schema.org+%7C+Open+Graph+%7C+Twitter+Card"
+      alt="Typing SVG"
+    />
+  </a>
+</p>
+
+<br/>
 
 <!-- ══════════════════════════════════════════════════════
      LIVE DEMO + REPO BADGES
