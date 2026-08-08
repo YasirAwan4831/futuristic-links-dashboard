@@ -36,6 +36,7 @@ const DATA = {
     { name:"Facebook",        url:"https://facebook.com/profile.php?id=61575935942197",     icon:"fa-brands fa-facebook",      color:"#1877F2",  category:"Social" },
     { name:"TikTok",          url:"https://www.tiktok.com/@yasirawan4831",                  icon:"fa-brands fa-tiktok",        color:"#ebef07",  category:"Social" },
     { name:"Discord",         url:"https://discord.com/users/1298290889373913149",          icon:"fa-brands fa-discord",       color:"#5865F2",  category:"Social" },
+    { name:"Portfolio 2",     url:"https://yasirawaninfo-data.vercel.app/",                icon:"fa-solid fa-globe",          color:"#42f51ea1",  category:"Data Analyst" },
     { name:"Portfolio 2",     url:"https://myasirawaninfo.vercel.app/",                     icon:"fa-solid fa-globe",          color:"#00eaff",  category:"Contact" },
     { name:"Gmail",           url:"mailto:my3154831409@gmail.com",                          icon:"fa-solid fa-envelope",       color:"#EA4335",  category:"Contact" },
     { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" },
@@ -62,7 +63,7 @@ function el(tag, cls, html) {
 ===================================================== */
 function injectStyles() {
   /* Set body bg immediately — prevents any white flash */
-  document.body.style.background = "#020408";
+  document.body.style.background = "#9d8cff0d";
   document.body.style.margin     = "0";
   document.body.style.padding    = "0";
   document.body.style.overflowX  = "hidden";
@@ -202,7 +203,7 @@ body.light #ai-bg { opacity:0.35; }
   text-decoration:none; position:relative; overflow:hidden;
   background:var(--bg-card); backdrop-filter:var(--glass); -webkit-backdrop-filter:var(--glass);
   border:1px solid var(--border);
-  box-shadow:0 4px 24px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.06);
+  box-shadow:0 4px 24px rgba(0,0,0,0.3),inset 0 1px 0 rgb(250, 244, 244);
   transition:background var(--dur) var(--ease),border-color var(--dur) var(--ease),
              box-shadow var(--dur) var(--ease),transform var(--dur) var(--ease-bounce);
   cursor:pointer; will-change:transform;
@@ -228,8 +229,8 @@ body.light #ai-bg { opacity:0.35; }
 
 .link-card:hover {
   background:var(--bg-card-hover); border-color:var(--border-hover);
-  box-shadow:0 0 30px var(--cyan-glow),0 0 70px rgba(0,245,255,0.12),
-             0 12px 40px rgba(0,0,0,0.5),inset 0 1px 0 rgba(255,255,255,0.14);
+  box-shadow:0 0 30px var(--cyan-glow),0 0 50px #fffffffc,
+             0 12px 40px rgba(0, 0, 0, 0.5),inset 0 10px 0 rgb(255, 0, 0);
 }
 .link-card:focus-visible { outline:2px solid var(--cyan); outline-offset:4px; }
 
