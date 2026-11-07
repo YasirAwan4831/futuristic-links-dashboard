@@ -18,6 +18,7 @@ const DATA = {
     { name:"LinkedIn",        url:"https://linkedin.com/in/yasirawan4831",                  icon:"fa-brands fa-linkedin-in",   color:"#0A66C2", category:"Professional" },
     { name:"GitHub",          url:"https://github.com/YasirAwan4831",                       icon:"fa-brands fa-github",        color:"#ffffff",  category:"Professional" },
     { name:"Portfolio",       url:"https://yasirawaninfo.vercel.app/",                      icon:"fa-solid fa-globe",          color:"#00eaff",  category:"Professional" },
+    { name:"Blogging", url:"https://yasir-personal-blog.web.app/blog", icon:"fa-solid fa-blog", color:"#FF6719", category:"Writing" },
     { name:"Kaggle",          url:"https://kaggle.com/yasirawan4831",                       icon:"fa-brands fa-kaggle",        color:"#20BEFF",  category:"Dev" },
     { name:"LeetCode",        url:"https://leetcode.com/u/YasirAwan4831",                   icon:"fa-solid fa-code",           color:"#FFA116",  category:"Dev" },
     { name:"Stack Overflow",  url:"https://stackoverflow.com/users/31822196/yasirawan4831", icon:"fa-brands fa-stack-overflow",color:"#F58025",  category:"Dev" },
