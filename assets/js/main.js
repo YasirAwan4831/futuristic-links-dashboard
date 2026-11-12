@@ -42,6 +42,7 @@ const DATA = {
     { name:"Gmail",           url:"mailto:my3154831409@gmail.com",                          icon:"fa-solid fa-envelope",       color:"#EA4335",  category:"Contact" },
     { name:"Outlook",         url:"mailto:my3154831409@hotmail.com",                        icon:"fa-brands fa-microsoft",     color:"#0078D4",  category:"Contact" },
     { name:"Kworkly",         url:"https://app.kworkly.com/freelancer-profile/1784619791174x238318453904174720",               icon:"fa-brands fa-k",     color:"#0078D4",  category:"Professional" },
+    { name:"AI Lounge", url:"https://ai.lounge.ai/@yasirawan4831", icon:"fa-solid fa-people-group", color:"#7C3AED", category:"Professional" },
     { name:"Portfolio-3",     url:"https://yasirawaninfodev.vercel.app/",                   icon:"fa-solid fa-globe",          color:"#07f213",  category:"Professional" },
     { name:"AI-Internship Portfolio",     url:"https://yasirawaninfo-ai.vercel.app/",       icon:"fa-solid fa-globe",          color:"#f20707",  category:"Professional" },
     { name:"Behance",     url:"https://www.behance.net/muhammadyasir206",              icon:"fa-solid fa-palette",          color:"rgba(111, 203, 99, 0.57)",  category:"Graphic" },
